@@ -1,0 +1,39 @@
+html,body,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,img{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	/*font-weight: bolder;*/
+}
+
+body {
+font-family: "Microsoft YaHei","STHeiti",Helvetica,Arial,sans-serif;
+font-size: 12px;
+}
+img{
+	border: 0px;
+}
+ul{
+	list-style: none;
+}
+.clearfix:after{
+	content: '';
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: collapse;
+}
+.clearfix{
+	zoom: 1;
+}
+a{
+	font-size: 12px;
+	text-decoration: none;
+	color: black;
+}
+li{
+	font-size: 12px;
+}
+a:hover{
+	color: #008842;	
+}

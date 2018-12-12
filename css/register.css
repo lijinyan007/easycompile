@@ -1,0 +1,112 @@
+body{
+	background: url(../images/register/bg.png) no-repeat -2000px -300px;
+}
+#register{
+	width:480px;
+	height: 480px;
+	background: #fff;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -240px;
+	margin-left: -240px;	
+	border-radius:20px;
+}
+#register .logo{
+	width: 100px;
+	margin: 10px auto;
+}
+#register .logo img{
+	width: 100px;
+}
+
+/*注册信息*/
+.register_info{
+	width: 350px;
+	margin: 0 auto;
+}
+.register_info h3{
+	text-align: left;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+/*账号密码的icon*/
+.register_info>div{
+	position: relative;
+	width: 350px;
+	height: 50px;
+	margin-bottom: 30px;
+}
+.register_info>div input{
+	width: 350px;
+	height: 50px;
+	border-radius: 10px;
+	border:1px solid #ccc;
+	outline: none;
+}
+.register_info>div input#user,
+.register_info>div input#paw{
+	box-sizing: border-box;
+	padding-left: 35px;
+	font-size: 14px;
+}
+.register_info>div span{
+	width: 11px;
+	height: 17px;
+	position: absolute;
+}
+.register_info>div span.user{
+	background: url(../images/register/user.png) no-repeat 0px 0px;
+	top: 17px;
+	left: 15px;
+}
+.register_info>div span.paw{
+	background: url(../images/register/paw.png) no-repeat 0px 0px;
+	top: 16px;
+	left: 15px;
+}
+
+/*验证码按钮*/
+.register_info .validate input[type=text]{	
+	width: 210px;
+	height:50px;
+	margin-right: 16px;
+	box-sizing: border-box;
+	padding-left:10px;	
+}
+.validate input[type=button]{
+	width: 120px;
+	background: #e5e5e5;
+	color: #666;
+}
+.register_info div b{
+	position: absolute;
+	font-weight: lighter;
+	top:60px;
+	left:20px;
+	color: red;
+}
+
+
+
+/*提交按钮*/
+.register_info input#registerbtn{
+	width: 350px;
+	height: 40px;
+	background: #fed060;	
+	outline: none;
+	border: 0;
+	border-radius: 5px;
+	color: #823219;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.register_info>p{
+	font-size: 12px;
+	color:rgb(153,153,153);
+}
+.register_info p a{
+	float:right;
+	color:#67cdfa;
+}

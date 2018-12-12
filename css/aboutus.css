@@ -1,0 +1,257 @@
+/*侧边栏*/
+.silder{
+	width:50px;
+	height:250px;
+	position: fixed;
+	bottom: 50px;
+	right:10px;
+}
+.silder span.goTop,
+.silder span.online,
+.silder span.opin{
+	display: block;
+	width:50px;
+	text-align: center;
+	height:50px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.silder span.goTop:hover,
+.silder span.online:hover,
+.silder span.opin:hover{
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #ccc;
+	color:#fff;
+}
+.silder span.img{
+	display: block;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:50px;
+	height:44px;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 10px;
+	background-size: 50px 44px;
+	background: url(../images/index/mou.jpg) no-repeat;
+}
+.silder span.img:hover{
+	background-size: 50px 44px;
+	background: url(../images/index/mou_hover.jpg) no-repeat;
+}
+/*banner图*/
+.banner{
+	width:100%;
+	height:280px;
+	margin-bottom: 50px;
+}
+.banner img{
+	display: block;
+	width:100%;
+	height:100%;
+}
+/*关于我们*/
+.about_us{
+	margin-bottom: 100px;
+}
+.about_us .about_us_title{
+	height:85px;
+	text-align: center;
+	margin-bottom: 100px;
+}
+.about_us .about_us_title em{
+	display: block;
+	width: auto;
+    color: #999;
+    font-family: "edo_szregular";
+    font-size: 35px;
+    margin-top: 60px;
+}
+.about_us .about_us_title h3{
+	display: block;
+	font-size: 28px;
+	margin-top: 15px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.about_us .img{
+	float:left;
+	width:550px;
+	height:430px;
+	margin-right: 50px;
+}
+.about_us .img img{
+	display: block;
+	width:100%;
+	height:100%;
+}
+.about_us .text_company{
+	float:left;
+	width:600px;
+}
+.about_us .text_company .text_company_title{
+	line-height: 25px;
+    font-size: 25px;
+    letter-spacing: 4px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.about_us .text_company .text_company_title:after{
+	content: "";
+    display: block;
+    width: 112px;
+    border-top: 10px solid #ffc501;
+}
+.about_us .text_company .text_con{
+	font-size: 14px;
+    text-indent: 2em;
+    line-height: 32px;
+}
+.about_us .text_company .text_con p.one{
+	margin-bottom: 30px;
+}
+/*我们的特色*/
+.why_study{
+	margin-bottom:100px ;
+}
+.why_study .why_study_title{
+	text-align: center;
+}
+.why_study .why_study_title em{
+	display: block;
+	width: auto;
+    color: #999;
+    font-family: "edo_szregular";
+    font-size: 35px;
+    margin-top: 60px;
+}
+.why_study .why_study_title h3{
+	display: block;
+	font-size: 28px;
+	margin-top: 15px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.why_study .study_advan_con li{
+	float: left;
+    width: 25%;
+    padding: 25px 50px;
+    text-align: center;
+}
+.study_advan_con  li div{
+	width:250px;
+	height:auto;
+	margin: 0 auto;
+}
+.study_advan_con  li div p.img{
+	width:90px;
+	height:90px;
+	margin: 0 auto;
+}
+.study_advan_con  li div p:hover img{
+	-webkit-transform:scale(1.2);
+	transform: scale(1.2);
+}
+.study_advan_con  li div img{
+	display: block;
+	width:90px;
+	height:90px;
+	margin: 0 auto;
+	transition: all .5s;
+}
+.study_advan_con li div span.advan_box{
+	display: block;
+	margin-top: 20px;
+	height:86px;
+	width:250px;
+	text-align: center;
+}
+.study_advan_con li div span.advan_box h3{
+	font-weight:bold;
+	font-size: 18px;
+	position: relative;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.study_advan_con li div span.advan_box h3:after{
+	content: "";
+    display: block;
+    width: 30px;
+    border-top: 4px solid #ffc501;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -15px;
+}
+.study_advan_con li div span.advan_box p{
+	font-size:14px;
+	text-align: left;
+	color:#999;
+}
+/*专家队伍*/
+.expert_team{
+	margin-bottom:80px ;
+}
+.expert_team .expert_team_title{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.expert_team .expert_team_title em{
+	display: block;
+	width: auto;
+    color: #999;
+    font-family: "edo_szregular";
+    font-size: 35px;
+    margin-top: 60px;
+}
+.expert_team .expert_team_title h3{
+	display: block;
+	font-size: 28px;
+	margin-top: 15px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.expert_team .expert_msg_con li{
+	float: left;
+    width: 20%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.expert_msg_con li div{
+	width:230px;
+	box-sizing: border-box;
+}
+.expert_msg_con  li div p.img{
+	width:226px;
+}
+.expert_msg_con  li div img{
+	display: block;
+	width:100%;
+	height:100%;
+	
+}
+.expert_msg_con  li div .slide{
+	width:228px;
+	height:300px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	border:1px solid #fff;
+	font-size: 14px;
+	line-height:24px;
+	padding-left: 10px;
+	padding-right: 10px;
+	position: absolute;
+	top:220px;
+	left:0;
+	background: #fff;
+}
+.expert_msg_con  li div .slide h1{
+	font-size: 16px;
+	color:gray;
+	margin-bottom: 10px;
+	font-weight: normal;
+}

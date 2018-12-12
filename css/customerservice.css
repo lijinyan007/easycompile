@@ -1,0 +1,166 @@
+.window{
+	width: 800px;
+	height: 561px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -300px;
+	margin-left: -400px;
+	background: #fff;
+	box-shadow: 0 0 5px #A9A9A9;		
+}
+.window .header{
+	width: 100%;
+	height: 60px;
+	background:#1F8CEB;	
+}
+.window .header img{
+	display: block;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin: 10px;
+}
+.window .header div {
+	color: #fff;
+}
+.window .header div h3{
+	margin-bottom: 5px;
+	padding-top: 10px;
+}
+/*左半部分*/
+.content .left_server{
+	width: 559px;
+	height: 501px;
+	border-right: 1px solid #d8d8d8;
+	float: left;
+}
+.content .left_server .server_con{
+	width: 400px;
+	height: 20px;
+	margin: 10px auto;
+	color:#28334B;
+}
+.content .left_server .server_con h3{
+	font-size: 14px;
+	font-weight: lighter;
+	margin-bottom: 10px;
+}
+.content .left_server .server_con p{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.content .left_server .server_con p b{
+	float: right;
+	font-weight: lighter;
+	color: red;
+}
+.content .left_server .server_con p span{
+	color: red;
+}
+.content .left_server .server_con input{
+	width:400px;
+	height: 30px;
+	margin-bottom: 10px;
+	border: 1px solid #D8D8D8;
+}
+.content .left_server .server_con input:nth-child(7){
+	height: 100px;
+}
+.content .left_server .server_con input:last-child{
+	height: 30px;
+	border:0px;
+	background:#1E89E6;
+	color: #fff;
+	margin-top: 15px;
+	border-radius: 5px;
+}
+
+
+/*右半部分*/
+.content .right_adver{
+	width: 240px;
+	height: 100%;
+	float:left;
+}
+.content .right_adver_top{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #d8d8d8;
+	text-align: center;
+	font-size: 14px;
+	line-height: 40px;
+}
+.content .right_adver_mid{
+	width: 100%;
+	height: 289px;
+	border-bottom: 1px solid #d8d8d8;
+	box-sizing: border-box;
+	padding:10px;
+}
+.content .right_adver_mid p{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: "微软雅黑";
+}
+.content .right_adver_bottom{
+	width: 100%;
+	height:170px;
+}
+.content .right_adver_bottom div{
+	width: 220px;
+	height: 150px;
+	margin: 10px;
+	overflow: hidden;
+	position: relative;
+}
+.content .right_adver_bottom div ul li{
+	width: 220px;
+	height: 150px;
+	position: absolute;
+}
+.content .right_adver_bottom div ul li a{
+	width: 100%;
+	height: 100%;
+}
+.content .right_adver_bottom div ul li a img{
+	width: 100%;
+	height: 100%;
+}
+/*遮罩开始*/
+body,html{
+	width: 100%;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	display:none;
+}
+.mask .mask_con{
+	width:258px;
+	position: absolute;
+	left:50%;
+	margin-left: -129px;
+	top: 50%;
+	margin-top: -129px;
+}
+.mask .mask_con{
+	width:258px;
+	display: block;
+}
+.mask span{
+	font-size: 36px;
+	font-weight: 500;
+	display: block;
+	position: absolute;
+	right:-30px;
+	top: -36px;
+	color: #fff;
+	cursor: pointer;
+}
+/*遮罩结束*/

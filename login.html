@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!--提高ie浏览器的性能和渲染速度-->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>易编程(EasyCompile)-登录</title>
+		<link rel="stylesheet" type="text/css" href="css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/login.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="login_box">
+			<div class="logo">
+				<a href="index.html"><img src="images/index/logo.png"/></a>
+			</div>
+			<ul class="login_title clearfix">
+				<li>手机号登录</li>
+				<li>邮箱登录</li>
+				<li>校园账号登录</li>
+			</ul>
+			<form action="" method="post" onsubmit="return false">
+			<ul class="login_con clearfix">
+				<li>
+					<!--手机登录开始-->
+					<ul class="login_phone" style="display: block;">
+						<li class="login_input">
+							<span class="icon_phone fl" ></span>
+							<input type="tel" name="" id="user_phone" value="" placeholder="请输入手机号" class="fl"/>
+						</li>
+						<li class="phone_error"></li>
+						<li class="login_input">
+							<span class="icon_pwd"></span>
+							<input type="password" name="" id="pwd1" value="" placeholder="请输入密码"/>
+						</li>
+						<li class="ph_pwd_error"></li>
+					</ul>
+					<!--手机登录结束-->
+					<!--邮箱登录开始-->
+					<ul class="login_email">
+						<li class="login_input">
+							<span class="icon_user"></span>
+							<input type="tel" name="" id="user_email" value="" placeholder="请输入邮箱账号"/>
+						</li>
+						<li class="email_error"></li>
+						<li class="login_input">
+							<span class="icon_pwd"></span>
+							<input type="password" name="" id="pwd2" value="" placeholder="请输入密码"/>
+						</li>
+						<li class="email_pwd_error"></li>
+					</ul>
+					<!--邮箱登录结束-->
+					<!--学校账户登录开始-->
+					<ul class="login_school">
+						<li class="login_input">
+							<span class="icon_user"></span>
+							<input type="tel" name="" id="user_school" value="" placeholder="请输入老师给的学校账号"/>
+						</li>
+						<li class="school_error"></li>
+						<li class="login_input">
+							<span class="icon_pwd"></span class="login_input">
+							<input type="password" name="" id="pwd3" value="" placeholder="请输入密码"/>
+						</li>
+						<li class="school_pwd_error"></li>
+					</ul>
+					<!--学校账号登录结束-->
+				</li>
+				<input type="submit" value="登录" class="login_btn"/>
+			</ul>
+		</form>
+		<div class="login_bottom clearfix">
+			<p class="forgot_pwd fl"><a href="#">忘记密码？</a></p>
+			<p class="go_reg fr"><a href="register.html">还没有账号？去注册</a></p>
+		</div>
+		<div class="login_other_type clearfix">
+			<h5>第三方登录</h5>
+			<p><img src="images/login/icon_wechart.png"/><span>微信</span></p>
+			<p><img src="images/login/icon_qq.png"/><span>QQ</span></p>
+		</div>
+		</div>
+		
+	</body>
+</html>

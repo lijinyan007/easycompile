@@ -1,0 +1,307 @@
+body{
+	color: #666;
+}
+/*遮罩开始*/
+body,html{
+	width: 100%;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index:999;
+	display:none;
+}
+.mask .mask_con{
+	width:258px;
+	position: absolute;
+	left:50%;
+	margin-left: -129px;
+	top: 50%;
+	margin-top: -129px;
+}
+.mask .mask_con{
+	width:258px;
+	display: block;
+}
+.mask span{
+	font-size: 36px;
+	font-weight: 500;
+	display: block;
+	position: absolute;
+	right:-30px;
+	top: -36px;
+	color: #fff;
+	cursor: pointer;
+}
+/*遮罩结束*/
+
+/*侧边栏*/
+.silder{
+	width:50px;
+	height:250px;
+	position: fixed;
+	bottom: 50px;
+	right:10px;
+}
+.silder span.goTop,
+.silder span.online,
+.silder span.opin{
+	display: block;
+	width:50px;
+	text-align: center;
+	height:50px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.silder span.goTop:hover,
+.silder span.online:hover,
+.silder span.opin:hover{
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #ccc;
+	color:#fff;
+}
+.silder span.online a{
+	display: block;
+	font-size: 16px;
+	width: 50px;
+	height: 50px;
+	color: #666;
+	
+}
+.silder span.online a:hover{
+	color:#fff;
+	
+}
+.silder span.img{
+	display: block;
+	width:50px;
+	height:44px;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 10px;
+	background-size: 50px 44px;
+	background: url(../images/index/mou.jpg) no-repeat;
+}
+.silder span.img:hover{
+	background-size: 50px 44px;
+	background: url(../images/index/mou_hover.jpg) no-repeat;
+}
+/*中间内容开始*/
+
+.contact_con{
+	width: 1200px;
+	margin: 0 auto;
+}
+.contact_con div{
+	box-sizing: border-box;
+}
+.contact_banner{
+	width: 100%;
+	height: 280px;
+	margin-bottom: 60px;
+}
+.contact_banner a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.contact_banner span{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/*联系方式开始*/
+.contact_type{
+	width: 1200px;
+	margin: 20px auto;
+}
+.contact_type h3{
+	text-align: center;
+	font-size: 28px;
+	color: #666;
+	margin-bottom: 60px;
+}
+.contact_type ul li{
+	float: left;
+	width: 370px;
+	height: 300px;
+	margin-right: 30px;
+	text-align: center;
+	padding: 5px;
+}
+.contact_type ul li:last-child{
+	margin-right: 0px;
+}
+.contact_type ul li .type{
+	width:300px;
+	height: 240px;
+	margin: 30px auto;
+}
+.contact_type ul li .type span{
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.contact_type ul li .tel span{
+	background: url(../images/contactus/tel1.png) no-repeat;
+	background-size: 50px 50px;
+}
+.contact_type ul li .weibo span{
+	background: url(../images/contactus/weibo1.png) no-repeat;
+	background-size: 50px 50px;
+}
+.contact_type ul li .weixin span{
+	background: url(../images/contactus/weixin1.png) no-repeat;
+	background-size: 50px 50px;
+}
+.contact_type ul li:hover{
+	box-shadow: -2px -2px 10px 1px #ccc,2px 2px 10px 1px #ccc;
+	color: #FFC501;
+}
+.contact_type ul li:hover .tel span{
+	background: url(../images/contactus/tel2.png) no-repeat;
+	background-size: 50px 50px;
+}
+.contact_type ul li:hover .weibo span{
+	background: url(../images/contactus/weibo2.png) no-repeat;
+	background-size: 50px 50px;
+}
+.contact_type ul li:hover .weixin span{
+	background: url(../images/contactus/weixin2.png) no-repeat;
+	background-size: 50px 50px;
+}
+
+
+.contact_type ul li h4{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+/*联系方式结束*/
+/*地图坐标开始*/
+.contact_address{
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.contact_address h3{
+	font-size: 28px;
+	margin-bottom: 20px;
+	color: #666;
+	text-align: center;
+}
+.contact_address .map{
+	width: 100%;
+	height: 350px;
+}
+/*地图坐标结束*/
+/*留言板开始*/
+.contact_left{
+	width: 702px;
+	float: left;
+	margin-right: 30px;
+}
+.contact_left h4,.contact_right h4{
+	font-size: 18px;
+	margin-bottom: 30px;
+	font-weight: normal;
+	color: #666;
+}
+.contact_left form{
+	width: 100%;
+}
+.contact_left form input,textarea{
+	outline: none;
+	resize:none;
+	border: none;
+	margin-bottom: 20px;
+}
+.contact_left form i{
+	color: red;
+	font-style: normal;
+	padding-left: 5px;
+}
+.contact_left form .username,.contact_left form .usertel{
+	width: 321px;
+	height: 50px;
+	padding-left: 6px;
+	border: 1px solid #ccc;
+}
+.contact_left form textarea{
+	width: 100%;
+	min-height: 30px;
+	padding-left: 6px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.contact_left form .contact_sub{
+	width: 200px;
+	height: 40px;
+	background: #ffc501;
+	border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+	margin-left: 251px;
+}
+/*留言板结束*/
+/*到达路线开始*/
+.contact_right{
+	width: 468px;
+	float: right;
+	padding: 0 10px;
+	color: #999;
+	box-sizing: border-box;
+}
+.contact_right .contact_root{
+	width: 100%;
+	margin-bottom: 30px;
+}
+.contact_right .bus span,.contact_right .car span{
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	display: block;
+	padding-left: 40px;
+	position: relative;
+	font-size: 16px;
+	font-weight: 400;
+	
+}
+.contact_right .bus span{
+	background: url(../images/contactus/bus2.png) no-repeat;
+	background-size: 32px 30px;
+}
+.contact_right .car span{
+	background: url(../images/contactus/car2.png) no-repeat;
+	background-size: 32px 30px;
+}
+.contact_right .listen p b{
+	width: 32px;
+	height: 30px;
+	color: #FFC501;
+	font-size: 26px;
+}
+.contact_right .listen p span{
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	font-size: 16px;
+	font-weight: 400;
+	padding-left: 10px;
+}
+.contact_right .listen img{
+	width: 241px;
+}
+/*到达路线结束*/
+/*中间内容结束*/

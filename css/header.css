@@ -1,0 +1,180 @@
+/*确定版心*/
+.content{
+	width:1200px;
+	margin:  0 auto;
+}
+.header{
+	width:100%;
+	height:80px;
+	background: #fff;
+	z-index: 99;
+	border-bottom: 1px solid #CCCACB;
+}
+.header .hearder_con{
+	height:80px; 
+}
+.header .hearder_con a.logo{
+	display: block;
+	float: left;
+	width:120px;
+	height:80px;
+	margin-right: 20px;
+}
+.header .hearder_con a.logo img{
+	display: block;
+	width:90%;
+	height:90%;
+	margin-top: 4px;
+	margin-left: 6px;
+}
+.header .hearder_con .header_nav{
+	float: left;
+	width:auto;
+	height:80px;
+}
+.header .hearder_con .header_nav ul li{
+	float: left;
+	width:140px;
+	text-align: center;
+	height:80px;
+	line-height: 80px;
+}
+.header .hearder_con .header_nav ul li:hover{
+	background: #f6b206;
+}
+.header .hearder_con .header_nav ul li:hover a{
+	color:#fff;
+}
+.header .hearder_con .header_nav ul li a{
+	color:#998;
+	font-size: 22px;
+	display: block;
+	width: 140px;
+	height: 80px;
+}
+.header_login_inf{
+	float:right;
+	width:160px;
+	text-align:center;
+	height:80px;
+	line-height: 80px;
+}
+.header_login_inf i.pic_msg{
+	display: block;
+	float: left;
+	width:40px;
+	height:40px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	background:url(../images/index/pic_msg.jpg) no-repeat;
+	background-color: #ccc;
+	background-size: 40px 40px;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.header_login_inf a{
+	display: block;
+	float: left;
+	width:100px;
+	text-align:right;
+	font-size: 20px;
+	color:#666;
+}
+.header_login_inf a:hover{
+	text-decoration: underline;
+}
+/*遮罩开始*/
+body,html{
+	width: 100%;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	display:none;
+}
+.mask .mask_con{
+	width:258px;
+	position: absolute;
+	left:50%;
+	margin-left: -129px;
+	top: 50%;
+	margin-top: -129px;
+}
+.mask .mask_con{
+	width:258px;
+	display: block;
+}
+.mask span{
+	font-size: 36px;
+	font-weight: 500;
+	display: block;
+	position: absolute;
+	right:-30px;
+	top: -36px;
+	color: #fff;
+	cursor: pointer;
+}
+/*遮罩结束*/
+/*侧边栏*/
+.silder{
+	width:50px;
+	height:250px;
+	position: fixed;
+	bottom: 50px;
+	right:10px;
+	z-index: 999;
+}
+.silder span.goTop,
+.silder span.online,
+.silder span.opin{
+	display: block;
+	width:50px;
+	text-align: center;
+	height:50px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	
+}
+.silder span.goTop:hover,
+.silder span.online:hover,
+.silder span.opin:hover{
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #ccc;
+	color:#fff;
+}
+.silder span.online a{
+	display: block;
+	font-size: 16px;
+	width: 50px;
+	height: 50px;
+}
+.silder span.online a:hover{
+	color:#fff;
+	
+}
+.silder span.img{
+	display: block;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:50px;
+	height:44px;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 10px;
+	background-size: 50px 44px;
+	background: url(../images/index/mou.jpg) no-repeat;
+}
+.silder span.img:hover{
+	background-size: 50px 44px;
+	background: url(../images/index/mou_hover.jpg) no-repeat;
+}

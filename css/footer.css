@@ -1,0 +1,218 @@
+.footer{
+	width:100%;
+	background: #000;
+	height:300px;
+	padding-top:40px;
+	background: rgb(45,45,45);
+}
+.footer .footer_con{
+	height:180px;
+}
+.footer .footer_con .link_item_box{
+	width:850px;
+	height:100%;
+	float: left;
+}
+.footer .footer_con .link_item{
+	width:150px;
+	height:150px;
+	padding-left: 10px;
+	padding-right: 10px;
+	float: left;
+}
+.footer .footer_con .link_item h3{
+	color:#fff;
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 22px;
+}
+.footer .footer_con .link_item ul li{
+	height:40px;
+	line-height: 40px;
+	width:100%;
+}
+.footer .footer_con .link_item ul li a{
+	color:#c1c1c1;
+	font-size: 16px;
+}
+.footer .footer_con .link_item ul li a:hover{
+	color:#fff;
+}
+.footer .footer_con .footer_logo{
+	float: left;
+	width:350px;
+	height:150px;
+}
+.footer .footer_con .footer_logo_code{
+	height:70px;
+	padding-left: 65px;
+}
+.footer .footer_con .footer_logo_code .logo_code_nes{
+	float: left;
+	height:64px;
+	width:64px;
+	padding: 4px;
+}
+.footer .footer_con .footer_logo_code .logo_code_nes span{
+	display: block;
+	float: left;
+	width:28px;
+	text-align: center;
+	height:28px;
+	line-height: 28px;
+	color:#fff;
+	font-size: 16px;
+	margin: 2px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.logo_code_nes span.c{
+	background: rgb(139,193,39);
+}
+.logo_code_nes span.o{
+	background:rgb(246,180,49);
+}
+.logo_code_nes span.d{
+	background: rgb(254,135,69);
+}
+.logo_code_nes span.e{
+	background: rgb(52,203,254);
+}
+.footer .footer_con .footer_logo_code a{
+	display: block;
+	float: left;
+	width:160px;
+	height:70px;
+	line-height: 70px;
+	font-family: "幼圆";
+	color:#fff;
+	font-size: 30px;
+	margin-left: 6px;
+}
+.footer .footer_con .footer_logo .footer_logo_sns{
+	height:60px;
+	padding-left: 65px;
+	padding-top: 20px;
+	padding-right: 66px;
+}
+.footer .footer_con .footer_logo .footer_logo_sns span{
+	display: block;
+	float: right;
+	width:40px;
+	height:40px;
+	margin-right: 30px;
+}
+.footer_logo .footer_logo_sns span a{
+	display: block;
+	width:40px;
+	height:40px;
+}
+.footer_logo .footer_logo_sns span a i{
+	display: block;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	width:40px;
+	height:40px;
+}
+.footer_logo .footer_logo_sns span a i.qq{
+	background: url(../images/index/qq.png) no-repeat;
+	background-size: 40px 40px;
+}
+.footer_logo .footer_logo_sns span a i.qq:hover{
+	background: url(../images/index/qq_hover.png) no-repeat;
+	background-size: 40px 40px;
+}
+.footer_logo .footer_logo_sns span a i.wechat{
+	background: url(../images/index/wechat.png) no-repeat;
+	background-size: 40px 40px;
+}
+.footer_logo .footer_logo_sns span a i.wechat:hover{
+	background: url(../images/index/wechat_hover.png) no-repeat;
+	background-size: 40px 40px;
+}
+.footer_logo .footer_logo_sns span a i.weibo{
+	background: url(../images/index/weibo.png) no-repeat;
+	background-size: 40px 40px;
+}
+.footer_logo .footer_logo_sns span a i.weibo:hover{
+	background: url(../images/index/weibo_hover.png) no-repeat;
+	background-size: 40px 40px;
+}
+.footer .copyright{
+	background: rgb(33,33,33);
+	border-top: 1px solid #444;
+}
+.footer .copyright_con{
+	height:76px;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 40px;
+}
+.footer .copyright_con p{
+	margin-bottom: 16px;
+	color:#c1c1c1;
+}
+.footer .copyright_con p a{
+	font-size: 16px;
+	color:#c1c1c1;
+}
+.footer .copyright_con p a:hover{
+	color:#fff;
+}
+/*侧边栏*/
+.silder{
+	width:50px;
+	height:250px;
+	position: fixed;
+	bottom: 50px;
+	right:10px;
+	z-index: 999;
+}
+.silder span.goTop,
+.silder span.online,
+.silder span.opin{
+	display: block;
+	width:50px;
+	text-align: center;
+	height:50px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	
+}
+.silder span.goTop:hover,
+.silder span.online:hover,
+.silder span.opin:hover{
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #ccc;
+	color:#fff;
+}
+.silder span.online a{
+	display: block;
+	font-size: 16px;
+	width: 50px;
+	height: 50px;
+}
+.silder span.online a:hover{
+	color:#fff;
+	
+}
+.silder span.img{
+	display: block;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:50px;
+	height:44px;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 10px;
+	background-size: 50px 44px;
+	background: url(../images/index/mou.jpg) no-repeat;
+}
+.silder span.img:hover{
+	background-size: 50px 44px;
+	background: url(../images/index/mou_hover.jpg) no-repeat;
+}

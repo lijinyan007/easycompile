@@ -1,0 +1,388 @@
+/*侧边栏*/
+.silder{
+	width:50px;
+	height:250px;
+	position: fixed;
+	bottom: 50px;
+	right:10px;
+	z-index: 999;
+}
+.silder span.goTop,
+.silder span.online,
+.silder span.opin{
+	display: block;
+	width:50px;
+	text-align: center;
+	height:50px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	
+}
+.silder span.goTop:hover,
+.silder span.online:hover,
+.silder span.opin:hover{
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: #ccc;
+	color:#fff;
+}
+.silder span.online a{
+	display: block;
+	font-size: 16px;
+	width: 50px;
+	height: 50px;
+}
+.silder span.online a:hover{
+	color:#fff;
+	
+}
+.silder span.img{
+	display: block;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	width:50px;
+	height:44px;
+	text-align: center;
+	cursor: pointer;
+	margin-bottom: 10px;
+	background-size: 50px 44px;
+	background: url(../images/index/mou.jpg) no-repeat;
+}
+.silder span.img:hover{
+	background-size: 50px 44px;
+	background: url(../images/index/mou_hover.jpg) no-repeat;
+}
+/*轮播图*/
+.slider{
+	width:100%;
+	height:500px;
+	position: relative;
+	overflow: hidden;
+}
+.slider .imgbox ul li{
+	float: left;
+	width: 100%;
+	height:100%;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.slider .imgbox ul li img{
+	display: block;
+	width: 100%;
+	height:100%;
+}
+.btn{
+	width:100%;
+	height:40px;
+	position: absolute;
+	top:50%;
+	margin-top: -20px;
+	left:0;
+	box-sizing: border-box;
+	padding: 0 30px;
+	cursor: pointer;
+}
+.btn a{
+	width:40px;
+	text-align: center;
+	height:40px;
+	line-height: 36px;
+	font-size: 40px;
+	color:#fff;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background: #fff;
+	color:#ffc501;
+}
+.btn a:hover{
+	background:#ffc501;
+	color:#fff;
+}
+.btn a.left{
+	float: left;
+}
+.btn a.right{
+	float: right;
+}
+.num{
+	position: absolute;
+	height:15px;
+	bottom: 10px;
+	left:50%;
+	margin-left: -33px;
+}
+.num span{
+	display: block;
+	float: left;
+	width:15px;
+	height:15px;
+	background: #fff;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	margin: 0 5px;
+	text-indent: -999999px;
+	cursor: pointer;
+}
+.num span.current{
+	background: goldenrod;
+}
+/*为什么学习编程模块*/
+.why_study{
+	margin-bottom:80px ;
+}
+.why_study .why_study_title{
+	text-align: center;
+}
+.why_study .why_study_title em{
+	display: block;
+	width: auto;
+    color: #999;
+    font-family: "edo_szregular";
+    font-size: 35px;
+    margin-top: 60px;
+}
+.why_study .why_study_title h3{
+	display: block;
+	font-size: 28px;
+	margin-top: 15px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+.why_study .study_advan_con ul li{
+	float: left;
+    width: 33.3333%;
+    padding: 25px 90px;
+    text-align: center;
+}
+.study_advan_con ul li div{
+	width:250px;
+	height:auto;
+	margin: 0 auto;
+}
+.study_advan_con ul li div img{
+	display: block;
+	width:130px;
+	margin: 0 auto;
+}
+.study_advan_con ul li div span.advan_box{
+	display: block;
+	margin-top: 20px;
+	height:86px;
+	width:250px;
+	text-align: center;
+}
+.study_advan_con ul li div span.advan_box h3{
+	font-weight:bold;
+	font-size: 18px;
+	position: relative;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.study_advan_con ul li div span.advan_box h3:after{
+	content: "";
+    display: block;
+    width: 30px;
+    border-top: 4px solid #ffc501;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    margin-left: -15px;
+}
+.study_advan_con ul li div span.advan_box p{
+	font-size:14px;
+	text-align: left;
+}
+/*课程体系*/
+.class_system{
+	height:810px;
+	background-color: #f8f8f8;
+	text-align: center;
+}
+.class_system h1{
+	font-size: 36px;
+    color: #666;
+    margin-bottom: 25px;
+}
+.class_system p.real{
+	font-size: 20px;
+	color:#666;
+	margin-bottom: 25px;
+}
+.class_system p.more{
+	font-size: 16px;
+	line-height: 30px;
+	color:#999;
+	margin-bottom: 60px;
+}
+.class_system .msg{
+	height:440px;
+	margin-bottom: 20px;
+}
+.class_system .msg img{
+	display: block;
+	width:100%;
+	height:100%;
+}
+.class_system p.base{
+	font-size: 20px;
+	color:#999;
+	margin-bottom: 40px;
+}
+.why_study .gif ul li{
+	float: left;
+    width: 33.3333%;
+    text-align: center;
+    padding-left:50px;
+    padding-top: 25px;
+}
+.study_advan_con ul li div img.gif{
+	display: block;
+	width:300px;
+	margin: 0 auto;
+}
+.study_advan_con ul li div span.advan_box h3.gif{
+	width:300px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.study_advan_con ul li div span.advan_box p.gif{
+	width:300px;
+	margin: 0 auto;
+	text-align: center;
+}
+/*新闻中心模块*/
+.new_center .new_center_title{
+	text-align: center;
+}
+.new_center .new_center_title em{
+	display: block;
+	width: auto;
+    color: #999;
+    font-family: "edo_szregular";
+    font-size: 35px;
+    margin-top: 60px;
+}
+.new_center .new_center_title h3{
+	display: block;
+	font-size: 28px;
+	margin-top: 15px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.new_center .new_center_con li{
+	width:33.333%;
+    text-align: center;
+    float:left;
+    padding-left:30px;
+    padding-top: 25px;
+    position: relative;
+}
+.new_center .new_center_con li img{
+	display: block;
+	width:365px;
+	height:190px;
+	margin-bottom: 10px;
+}
+.new_center_con li span.title_box{
+	display: block;
+	width:365px;
+	height:170px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	position: relative;
+}
+.new_center .new_center_con li .title_box h5{
+	width:330px;
+	margin: 0 auto;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.new_center_con li .title_box a{
+	height:21px;
+	margin: 0 auto;
+	color:black;
+	font-size: 16px;
+}
+.new_center_con li .title_box a:hover{
+	color:#ffc501;
+}
+.new_center_con li .title_box p.title_msg{
+	text-align: center;
+	width:330px;
+	overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+	margin: 0 auto;
+	font-size: 16px;
+	color:#999;
+	margin-bottom: 30px;
+}
+.new_center_con li .title_box p.more{
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    text-align: center;
+    background: #ffc501;
+    overflow: hidden;
+    position: absolute;
+    bottom: 10px;
+    left:50%;
+    margin-left: -100px;
+    cursor: pointer;
+}
+.new_center_con li .title_box p.more:hover{
+	box-shadow:3px 5px 3px rgb(252,218,120,0.7);
+}
+.new_center_con li .title_box p.more a{
+	width:100%;
+	height:100%;
+	color: #fff;
+	font-size: 14px;
+}
+/*遮罩开始*/
+body,html{
+	width: 100%;
+}
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.7);
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+	display:none;
+}
+.mask .mask_con{
+	width:258px;
+	position: absolute;
+	left:50%;
+	margin-left: -129px;
+	top: 50%;
+	margin-top: -129px;
+}
+.mask .mask_con{
+	width:258px;
+	display: block;
+}
+.mask span{
+	font-size: 36px;
+	font-weight: 500;
+	display: block;
+	position: absolute;
+	right:-30px;
+	top: -36px;
+	color: #fff;
+	cursor: pointer;
+}
+/*遮罩结束*/
